@@ -1,0 +1,17 @@
+<ul class="user-list">
+    <li *ngFor="let usuario of Users" class="user-item">
+       {{usuario.nome}}
+    </li>
+</ul>
+
+<div class="filter-container">
+<!-- Filtro -->
+<h5>Filtro</h5>
+<input [(ngModel)]="Idusuario">
+<button (click)="PegarporID()">Clique</button>
+
+<!-- Informações do usuário selecionado -->
+<div class="user-info" *ngIf="usuario">
+    <h4>Usuário Selecionado:</h4>
+    <p>{{usuario.nome}}</p>
+</div>
