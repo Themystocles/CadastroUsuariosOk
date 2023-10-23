@@ -9,7 +9,7 @@ import { Usuario } from '../UserModel';
 })
 export class UsuariosComponent implements OnInit{
   Users! : Usuario[]
-  Idusuario! : number;
+  Idusuario! : string;
   usuario! : Usuario
 
   

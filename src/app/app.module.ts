@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { UpdateUserComponent } from './update-user/update-user.component';
+import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { DeleteUserComponent } from './delete-user/delete-user.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    UpdateUserComponent,
+    CadastroUsuarioComponent,
+    DeleteUserComponent
   ],
   imports: [
     BrowserModule,

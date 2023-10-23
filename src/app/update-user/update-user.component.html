@@ -1,0 +1,12 @@
+<p>UpdateUser</p>
+
+Nome<input type="text"  [(ngModel)]="User.nome">
+Profissão<input [(ngModel)]="User.profissao"> 
+Idade<input type="number" [(ngModel)]="User.idade"> 
+<button (click)="updateUser()">Salvar</button>
+
+<h3>Você está editando:</h3>
+
+{{User.nome}}
+{{User.profissao}}
+{{User.idade}}
