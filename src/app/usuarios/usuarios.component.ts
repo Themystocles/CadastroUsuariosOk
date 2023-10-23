@@ -26,5 +26,6 @@ export class UsuariosComponent implements OnInit{
 
   this.UsuarioServices.getUsuariosbyId(this.Idusuario).subscribe(res => this.usuario = res)
    }
+ 
 
 }

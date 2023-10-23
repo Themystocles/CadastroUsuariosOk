@@ -1,45 +1,65 @@
-.user-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .user-item {
-    margin: 5px 0;
-  }
-  
-  .filter-container {
-    margin-top: 20px;
-  
-    h5 {
-      font-size: 16px;
-    }
-  
-    .filter-input {
-      padding: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-  
-    .filter-button {
-      margin-left: 10px;
-      padding: 5px 10px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  }
-  
-  .user-info {
-    margin-top: 20px;
-  
-    h4 {
-      font-size: 18px;
-    }
-  
-    .user-name {
-      font-weight: bold;
-    }
-  }
-  
+/* Estilo para a tabela de usuários */
+.user-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #000000;
+  padding: 5px;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f0f0f0;
+}
+
+/* Estilo para os links "Editar" e "Deletar" */
+.user-item a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+
+.user-item a:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a seção "Filtro" */
+h5 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a seção "Informações do usuário selecionado" */
+.user-info {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
